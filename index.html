@@ -17,8 +17,9 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
-    <header>
+    <header class="header">
       <div class="header-container container">
         <nav class="nav-container">
           <a class="link logo" href="#"
@@ -52,75 +53,79 @@
     </header>
     <main>
       <section class="hero">
-        <div class="hero-container container">
+        <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнесса</h1>
           <button class="button" type="button">Заказать услугу</button>
         </div>
       </section>
-      <section class="container">
-        <ul class="collection-list list">
-          <li>
-            <h3 class="collection-title">Внимание к деталям</h3>
-            <p class="collection-deskript">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li>
-            <h3 class="collection-title">Пунктуальность</h3>
-            <p class="collection-deskript">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li>
-            <h3 class="collection-title">Планирование</h3>
-            <p class="collection-deskript">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <h3 class="collection-title">Современные технологии</h3>
-            <p class="collection-deskript">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <ul class="collection-list list">
+            <li class="collection-list-card">
+              <h3 class="collection-title">Внимание к деталям</h3>
+              <p class="collection-deskript">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="collection-list-card">
+              <h3 class="collection-title">Пунктуальность</h3>
+              <p class="collection-deskript">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="collection-list-card">
+              <h3 class="collection-title">Планирование</h3>
+              <p class="collection-deskript">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="collection-list-card">
+              <h3 class="collection-title">Современные технологии</h3>
+              <p class="collection-deskript">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="topic-container container">
-        <h2 class="topic">Чем мы занимаемся</h2>
-        <ul class="topic-list list">
-          <li>
-            <img
-              src="./img/develop.jpg"
-              width="370"
-              height="294"
-              alt="разработка сайтов"
-            />
-          </li>
-          <li>
-            <img
-              src="./img/app.jpg"
-              width="370"
-              height="294"
-              alt="разработка приложений"
-            />
-          </li>
-          <li>
-            <img
-              src="./img/grafic.jpg"
-              width="370"
-              height="294"
-              alt="графика"
-            />
-          </li>
-        </ul>
+      <section class="topic section">
+        <div class="topic-container container">
+          <h2 class="topic-title">Чем мы занимаемся</h2>
+          <ul class="topic-list list">
+            <li>
+              <img
+                src="./img/develop.jpg"
+                width="370"
+                height="294"
+                alt="разработка сайтов"
+              />
+            </li>
+            <li>
+              <img
+                src="./img/app.jpg"
+                width="370"
+                height="294"
+                alt="разработка приложений"
+              />
+            </li>
+            <li>
+              <img
+                src="./img/grafic.jpg"
+                width="370"
+                height="294"
+                alt="графика"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="tim">
-        <div class="tim-container container">
-          <h2 class="topic">Наша команда</h2>
+      <section class="tim section">
+        <div class="container">
+          <h2 class="topic-title">Наша команда</h2>
           <ul class="tim-list list">
             <li class="tim-card">
               <img
@@ -129,8 +134,52 @@
                 height="260"
                 alt="Демьяненко"
               />
-              <h3 class="title">Игорь Демьяненко</h3>
-              <p class="text">Product Designer</p>
+              <div class="tim-wrap">
+                <h3 class="title">Игорь Демьяненко</h3>
+                <p class="text">Product Designer</p>
+                <ul class="icons">
+                  <a class="link"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="instagram">
+                    <svg width="20px" height="20px">
+                      <use href="./img/icons.svg#instagram">
+                      </use>
+                    </svg>
+                  </a>
+                  <a class="link"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="twitter">
+                    <svg width="20px" height="20px">
+                      <use href="./img/icons.svg#twitter">
+                      </use>
+                    </svg>
+                    </a>
+                  <a class="link"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="facebook">
+                    <svg width="20px" height="20px">
+                      <use href="./img/icons.svg#facebook">
+                      </use>
+                      </svg>
+                    </a>
+                  <a class="link"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="linkedin">
+                    <svg width="20px" height="20px">
+                    <use href="./img/icons.svg#linkedin">
+                    </use>
+                    </svg>
+                  </a>
+                </ul>
+              </div>
             </li>
             <li class="tim-card">
               <img
@@ -139,8 +188,10 @@
                 height="260"
                 alt="Репина"
               />
-              <h3 class="title">Ольга Репина</h3>
-              <p class="text">Frontend Developer</p>
+              <div class="tim-wrap">
+                <h3 class="title">Ольга Репина</h3>
+                <p class="text">Frontend Developer</p>
+              </div>
             </li>
             <li class="tim-card">
               <img
@@ -149,8 +200,10 @@
                 height="260"
                 alt="Тарасов"
               />
-              <h3 class="title">Николай Тарасов</h3>
-              <p class="text">Marketing</p>
+              <div class="tim-wrap">
+                <h3 class="title">Николай Тарасов</h3>
+                <p class="text">Marketing</p>
+              </div>
             </li>
             <li class="tim-card">
               <img
@@ -159,43 +212,43 @@
                 height="260"
                 alt="Ермаков"
               />
-              <h3 class="title">Михаил Ермаков</h3>
-              <p class="text">UI Designer</p>
+              <div class="tim-wrap">
+                <h3 class="title">Михаил Ермаков</h3>
+                <p class="text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <div class="footer-container container">
-        <div class="logotipe">
-      <a class="link logo" href="#"
-        >Web<span class="logo light">Studio</span>
-      </a>
-      </div>
-      <address class="address">
-        <ul class="list">
-          <li>
-            <a
-              class="address-link accent link"
-              href="https://goo.gl/maps/NY9jB76HG3i3NCJy5"
-              rel="noreferrer noopener nofollow"
-              target="_blank"
-              >Київ, пр-т Лесі Українки, 26
-            </a>
-          </li>
-          <li>
-            <a class="address-link link" href="mailto:info@example.com"
-              >info@example.com
-            </a>
-          </li>
-          <li>
-            <a class="address-link link" href="tel:+380991111111"
-              >+38096 111 11 11
-            </a>
-          </li>
-        </ul>
-      </address>
+    <footer class="footer section">
+      <div class="container">
+        <a class="link logo" href="#"
+          >Web<span class="logo light">Studio</span>
+        </a>
+        <address class="address">
+          <ul class="list">
+            <li class="address-collection">
+              <a
+                class="address-link accent link"
+                href="https://goo.gl/maps/NY9jB76HG3i3NCJy5"
+                rel="noreferrer noopener nofollow"
+                target="_blank"
+                >Київ, пр-т Лесі Українки, 26
+              </a>
+            </li>
+            <li class="address-collection">
+              <a class="address-link link" href="mailto:info@example.com"
+                >info@example.com
+              </a>
+            </li>
+            <li class="address-collection">
+              <a class="address-link link" href="tel:+380991111111"
+                >+38096 111 11 11
+              </a>
+            </li>
+          </ul>
+        </address>
       </div>
     </footer>
   </body>

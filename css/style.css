@@ -44,9 +44,6 @@ body {
   font-style: normal;
   font-size: 14px;
 }
-.header {
-  border-bottom: 1px solid #ececec;
-}
 .link {
   text-decoration: none;
 }
@@ -108,8 +105,6 @@ body {
 .hero {
   background: var(--background-color-darck);
   color: var(--text-color-wight);
-}
-.hero-container {
   padding: 200px 0;
   text-align: center;
 }
@@ -267,6 +262,9 @@ button:hover {
 .address-collection:last-child {
   margin-bottom: 0px;
 }
+.project-wrap {
+  width: 370px;
+}
 .project-card {
   margin-top: 0;
   padding: 20px 24px;
@@ -300,7 +298,7 @@ button:hover {
   padding-right: 15px;
 }
 .header {
-  border-bottom: var(--text-color-gray);
+  border-bottom: 1px solid var(--border-color);
 }
 .header-container {
   display: flex;
@@ -316,4 +314,9 @@ button:hover {
   display: flex;
   justify-content: center;
   gap: 8px;
+}
+/* icons */
+.icons {
+  display: inline;
+  
 }
