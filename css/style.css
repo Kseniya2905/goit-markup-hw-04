@@ -11,6 +11,7 @@
   --logo-color-darck: #000000;
   --address-text-color: rgba(255, 255, 255, 0.6);
   --border-color: #eeeeee;
+  --border-color-gray:#AFB1B8;
 }
 *,
 *::before,
@@ -339,16 +340,24 @@ button:hover {
   gap: 30px;
 }
 .clients-title {
-  margin-top: 94px;
   text-align: center;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--text-color-black);
 }
-.cliense-icon {
+.clientse-icon {
   fill: var(--text-color-gray);
 }
-.cliense-icon:hover :focus {
+.clientse-icon:hover:focus {
   fill: var(--color-blue);
+}
+.clients-card {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--border-color-gray);
+  border-radius: 4px;
+}
+.clients-card:hover:focus {
+  border-color: var(--color-blue);
 }
