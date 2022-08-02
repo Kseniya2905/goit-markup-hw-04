@@ -325,4 +325,9 @@ button:hover {
 .social-icons {
  background-color: var(--text-color-wight);
  border-radius: 50%;
+ fill: var(--text-color-gray);
+}
+.social-icons:hover, :focus {
+  background-color:var(--color-blue);
+  fill: var(--background-light)
 }
