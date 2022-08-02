@@ -317,6 +317,12 @@ button:hover {
 }
 /* icons */
 .icons {
-  display: inline;
-  
+  display:flex;
+  justify-content: center;
+  margin-top: 16px;
+  gap: 10px;  
+}
+.social-icons {
+ background-color: var(--text-color-wight);
+ border-radius: 50%;
 }
