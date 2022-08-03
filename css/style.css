@@ -320,13 +320,14 @@ button:hover {
 /* icons */
 .icons {
   display:flex;
-  justify-content: center;
+  justify-content: space-evenly ;
   margin-top: 16px;
   gap: 10px;  
 }
 .social-icons {
-  padding: 12px 12px;
+ padding: 12px 12px;
  background-color: var(--text-color-wight);
+ border-color: transparent;
  border-radius: 50%;
  fill: var(--text-color-gray);
 }
@@ -362,7 +363,6 @@ button:hover {
   fill: var(--color-blue);
 }
 .clients-card {
-  text-align: center;
   width: 170px;
   height: 92px;
   border: 1px solid var(--border-color-gray);
