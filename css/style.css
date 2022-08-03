@@ -50,6 +50,7 @@ body {
 }
 .link:hover {
   color: var(--color-blue);
+  fill: var(--color-blue);
 }
 .nav-link {
   display: block;
@@ -105,7 +106,9 @@ body {
   color: var(--text-color-grey);
 }
 .hero {
-  background: var(--background-color-darck);
+  background-image: url(img\buground_img.jpg);
+  background-size: cover;
+  background-color: var(--background-color-darck);
   color: var(--text-color-wight);
   padding: 200px 0;
   text-align: center;
@@ -338,7 +341,7 @@ button:hover {
  border-radius: 50%;
  fill: var(--text-color-gray);
 }
-.social-icons:hover, :focus {
+.social-icons:hover:focus {
   background-color:var(--color-blue);
   fill: var(--background-light)
 }
