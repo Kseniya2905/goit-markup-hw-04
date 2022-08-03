@@ -147,6 +147,8 @@ button:hover {
   gap: 30px;
 }
 .collection-icon {
+  display: block;
+  align-content: center;
   background-color:var(--background-light);
   padding: 25px 100px;
 }
@@ -341,7 +343,6 @@ button:hover {
 }
 .clients-container {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 .clients {
   margin-top: 50px;
@@ -367,8 +368,6 @@ button:hover {
   fill: var(--color-blue);
 }
 .clients-card {
-  width: 170px;
-  height: 92px;
   border: 1px solid var(--border-color-gray);
   border-radius: 4px;
 }
