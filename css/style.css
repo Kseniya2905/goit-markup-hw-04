@@ -333,6 +333,10 @@ button:hover {
   background-color:var(--color-blue);
   fill: var(--background-light)
 }
+.clients-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .clients {
   margin-top: 50px;
   display: flex;
@@ -346,10 +350,10 @@ button:hover {
   letter-spacing: 0.03em;
   color: var(--text-color-black);
 }
-.clientse-icon {
+.clients-icon {
   fill: var(--text-color-gray);
 }
-.clientse-icon:hover:focus {
+.clients-icon:hover:focus {
   fill: var(--color-blue);
 }
 .clients-card {
