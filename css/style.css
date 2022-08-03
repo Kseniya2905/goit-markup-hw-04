@@ -146,6 +146,10 @@ button:hover {
   display: flex;
   gap: 30px;
 }
+.collection-icon {
+  background-color:var(--background-light);
+  padding: 25px 100px;
+}
 .collection-title {
   font-weight: 700;
   font-size: 14px;
@@ -320,8 +324,8 @@ button:hover {
 /* icons */
 .icons {
   display:flex;
-  justify-content: space-evenly ;
-  margin-top: 16px;
+  justify-content: space-between;
+  margin: 16px 32px 30px;
   gap: 10px;  
 }
 .social-icons {
