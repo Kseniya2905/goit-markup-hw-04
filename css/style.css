@@ -341,7 +341,11 @@ button:hover {
  border-radius: 50%;
  fill: var(--text-color-gray);
 }
-.social-icons:hover:focus {
+.social-icons:hover {
+  background-color:var(--color-blue);
+  fill: var(--background-light)
+}
+.social-icons:focus {
   background-color:var(--color-blue);
   fill: var(--background-light)
 }
