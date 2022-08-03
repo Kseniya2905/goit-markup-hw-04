@@ -349,9 +349,6 @@ button:hover {
   background-color:var(--color-blue);
   fill: var(--background-light)
 }
-.clients-container {
-  padding-top: 94px;
-}
 .clients {
   margin-top: 50px;
   display: flex;
