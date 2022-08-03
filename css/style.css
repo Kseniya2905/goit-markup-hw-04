@@ -366,7 +366,6 @@ button:hover {
   color: var(--text-color-black);
 }
 .clients-icon {
-  padding: 16px 32px;
   fill: var(--text-color-gray);
 }
 .clients-icon:hover {
@@ -376,6 +375,7 @@ button:hover {
   fill: var(--color-blue);
 }
 .clients-card {
+  padding: 16px 32px;
   border: 1px solid var(--border-color-gray);
   border-radius: 4px;
 }
