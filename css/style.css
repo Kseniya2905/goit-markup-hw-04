@@ -41,7 +41,7 @@ img {
 }
 body {
   font-family: var(--main-font);
-  color: var(--text-color-black);
+  /* color: var(--text-color-black); */
   font-style: normal;
   font-size: 14px;
 }
@@ -257,6 +257,7 @@ button:hover {
   padding: 60px 0;
 }
 .address {
+  display: block;
   font-style: normal;
   margin-top: 20px;
 }
@@ -330,7 +331,8 @@ button:hover {
 }
 /* icons */
 .icons {
-  display:flex;
+  display:
+  flex;
   justify-content: space-between;
   margin: 16px 32px 30px;
 }
@@ -384,3 +386,19 @@ button:hover {
 .clients-card:focus {
   border-color: var(--color-blue)
 }
+.social-topic {
+  padding-left:  30px;
+  color: var(--text-color-wight);
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: calc(16/14);
+  letter-spacing: 0.03em;
+}
+.social-wrap {
+  padding-top: 75px;
+  width: 206px;
+}
+.icons-footer {
+  background-color: var(--text-color-gray);
+  fill: var(--text-color-wight);
+ }
