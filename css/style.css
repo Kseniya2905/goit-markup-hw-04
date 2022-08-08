@@ -86,6 +86,9 @@ body {
   color: var(--text-color-gray);
   fill: var(--text-color-gray);
 }
+.contact-link::after {
+  margin-right: 10px;
+}
 .dark {
   color: var(--logo-color-darck);
 }
@@ -181,6 +184,9 @@ button:hover {
   border-radius: 4px;
   cursor: pointer;
   border-color: transparent;
+}
+.selection:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .collection-deskript {
   color: var(--text-color-gray);
@@ -281,6 +287,7 @@ button:hover {
 .project-wrap {
   width: 370px;
 }
+
 .project-card {
   margin-top: 0;
   padding: 20px 24px;
@@ -412,14 +419,14 @@ button:hover {
   font-size: 14px;
   line-height: calc(16/14);
   letter-spacing: 0.03em;
-  margin-top: 75px;
+  
 }
 .footer-wrap {
   display: flex;
   gap: 70px;
 }
 .footer-wrap-right {
-  padding-top: 12px;
+  padding-top: 1;
 }
 .icons-footer {
   background-color: var(--text-color-gray);
