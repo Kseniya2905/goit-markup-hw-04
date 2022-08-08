@@ -12,6 +12,7 @@
   --address-text-color: rgba(255, 255, 255, 0.6);
   --border-color: #eeeeee;
   --border-color-gray:#AFB1B8;
+  --linear-gradient: rgba(47, 48, 58, 0.4);
 }
 *,
 *::before,
@@ -106,8 +107,11 @@ body {
   color: var(--text-color-grey);
 }
 .hero {
-  background-image: url(img\buground_img.jpg);
+  background-image: linear-gradient(to right var(--linear-gradient), var(--linear-gradient))
+  url(../img/buground_img.jpg);
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   background-color: var(--background-color-darck);
   color: var(--text-color-wight);
   padding: 200px 0;
@@ -157,7 +161,6 @@ button:hover {
 }
 .collection-title {
   margin-top: 30px;
-  font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
@@ -257,7 +260,6 @@ button:hover {
   padding: 60px 0;
 }
 .address {
-  display: block;
   font-style: normal;
   margin-top: 20px;
 }
@@ -333,15 +335,22 @@ button:hover {
 .icons {
   display:
   flex;
-  justify-content: space-between;
-  margin: 16px 32px 30px;
+  margin-top: 16px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  /* margin: 16px 32px 30px; */
 }
 .social-icons {
- padding: 12px 12px;
- background-color: var(--text-color-wight);
- border-color: transparent;
- border-radius: 50%;
- fill: var(--text-color-gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--text-color-wight);
+  border-color: transparent;
+  border-radius: 50%;
+  fill: var(--text-color-gray);
 }
 .social-icons:hover {
   background-color:var(--color-blue);
@@ -354,7 +363,9 @@ button:hover {
 .clients {
   margin-top: 50px;
   display: flex;
-  justify-content: space-between;
+  /*align-items: center;*/
+  /* justify-content: center; */
+  /*justify-content: space-between;*/
   gap: 30px;
 }
 .clients-title {
@@ -365,8 +376,13 @@ button:hover {
   color: var(--text-color-black);
 }
 .clients-icon {
-  display: block;
-  padding: 16px 32px;
+  display: flex;
+  width: 170px;
+  height: 92px;
+  align-items: center;
+  justify-content: center;
+  /*display: block;
+  padding: 16px 32px;*/
   fill: var(--text-color-gray);
 }
 .clients-icon:hover {
@@ -386,17 +402,21 @@ button:hover {
 .clients-card:focus {
   border-color: var(--color-blue)
 }
-.social-topic {
-  padding-left:  30px;
+.footer-title {
+  font-family: var(--secondary-font);
   color: var(--text-color-wight);
   text-transform: uppercase;
   font-size: 14px;
   line-height: calc(16/14);
   letter-spacing: 0.03em;
+  margin-top: 75px;
 }
-.social-wrap {
-  padding-top: 75px;
-  width: 206px;
+.footer-wrap {
+  display: flex;
+  gap: 70px;
+}
+.footer-wrap-right {
+  padding-top: 12px;
 }
 .icons-footer {
   background-color: var(--text-color-gray);
