@@ -17,6 +17,8 @@
 *,
 *::before,
 *::after {
+  margin-right
+  FONT-WEIGHT: 100;
   box-sizing: inherit;
 }
 html {
@@ -65,6 +67,12 @@ body {
 .nav-link.current {
   color: var(--color-blue);
 }
+.nav-linkcurrent::before {
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 4em;
+}
 .nav-list {
   display: flex;
   gap: 50px;
@@ -86,9 +94,10 @@ body {
   color: var(--text-color-gray);
   fill: var(--text-color-gray);
 }
-.contact-link::after {
+/*.contact-link::before {
+  content: "";
   margin-right: 10px;
-}
+}*/
 .dark {
   color: var(--logo-color-darck);
 }
@@ -110,7 +119,7 @@ body {
   color: var(--text-color-grey);
 }
 .hero {
-  background-image:url(../img/buground_img.jpg);
+  background-image:linear-gradient(to right rgba(47, 48, 58, 0.4)), url(../img/buground_img.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
