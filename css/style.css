@@ -17,12 +17,10 @@
 *,
 *::before,
 *::after {
-  margin-right
-  FONT-WEIGHT: 100;
-  box-sizing: inherit;
+ box-sizing:border-box;
 }
 html {
-  box-sizing: border-box;
+  box-sizing:inherit;
 }
 h1,
 h2,
@@ -85,7 +83,9 @@ body {
   color: var(--color-blue);
 }
 .contact-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
@@ -94,10 +94,6 @@ body {
   color: var(--text-color-gray);
   fill: var(--text-color-gray);
 }
-/*.contact-link::before {
-  content: "";
-  margin-right: 10px;
-}*/
 .dark {
   color: var(--logo-color-darck);
 }
@@ -119,12 +115,13 @@ body {
   color: var(--text-color-grey);
 }
 .hero {
-  background-image:linear-gradient(to right rgba(47, 48, 58, 0.4)), url(../img/buground_img.jpg);
+  background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/buground_img.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: var(--background-color-darck);
   color: var(--text-color-wight);
+  margin: 0 auto;
   padding: 200px 0;
   max-width: 1600px;
   text-align: center;
