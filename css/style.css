@@ -137,7 +137,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.button {
+.hero-button {
   margin-top: 30px;
   padding: 10px 32px;
   background-color: var(--color-blue);
@@ -192,7 +192,13 @@ button:hover {
   border-color: transparent;
 }
 .selection:hover {
+  background-color: var(--background-light);
+  color: var(--text-color-black);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.selection:focus {
+  background-color: var(--hover-color-blue);
+  color: var(--text-color-wight);
 }
 .collection-deskript {
   color: var(--text-color-gray);
@@ -300,8 +306,8 @@ button:hover {
   border: 1px solid var(--border-color);
   border-top: 0;
 }
-.project-card:hover {
-  border-bottom:filter drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.project-wrap:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .project-title {
   font-weight: 700;
